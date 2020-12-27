@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&family=Work+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #55585a;
+    font-family: "Raleway";
+    font-weight: 200;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.image {
+    text-align: center;
+    max-height: 690px;
+    max-width: 99%;
+    margin: 20px 0 20px 0;
+}
+
+.image img {
+    max-height: 100%;
+    width: 100%;
+   
+}
+
+p {
+    font-weight: 400;
+    line-height: 2;
+    color: #353738;
+}
+
+h2 { 
+    font-family: 'Work Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+h2 > a {
+    border-bottom: 2px solid#8ce6e6;
+    padding-bottom: 2px;
+}
+.outline {
+    margin: 30px 0 40px;
+}
+label {
+    color: black;
+    font-weight: 300;
+}
+
+
+/* input:checked + #hidden{
+    display: none;
+  } */
+
+.hidden {
+    display: none;
+}
+
+.changeme {
+    display: inline-block;
+}
+
+  #hidden {
+      margin-top: 5px
+  }
+
+a {
+    color: #21c0c0;
+    text-decoration: none;
+    border-bottom: 1px solid #21c0c0 ;
+    padding-bottom: 2px;
+}
